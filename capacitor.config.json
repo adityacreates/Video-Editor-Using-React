@@ -1,0 +1,21 @@
+{
+  "appId": "com.videoeditor.app",
+  "appName": "Video Editor",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  },
+  "android": {
+    "buildOptions": {
+      "keystorePath": "release.keystore",
+      "keystoreAlias": "key0",
+      "minSdkVersion": 24,
+      "targetSdkVersion": 34
+    }
+  },
+  "plugins": {
+    "Filesystem": {
+      "readChunkSize": 32768
+    }
+  }
+}
